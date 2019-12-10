@@ -35,9 +35,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.permitAll()
 		.and()
 		.formLogin()
+	    .usernameParameter("username")
+	    .passwordParameter("password")
 		.loginPage("/auth/login")
 		.loginProcessingUrl("/auth/loginProc")
-		.defaultSuccessUrl("/");
+		.defaultSuccessUrl("/image/feed")
+		.and();
 	}
 	
 	@Autowired
