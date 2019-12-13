@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Document</title>
+<title>outstagram | Image Upload</title>
 	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     rel="stylesheet">
   <link rel="shortcut icon" href="/images/favicon.ico">
@@ -30,7 +30,7 @@
 				</div>
 				<!-- 섬네일은 아래 주소 참고 -->
 				<!-- https://medium.com/@asadise/create-thumbnail-for-an-image-in-spring-framework-49776c873ea1 -->
-			<form action="/images/uploadProc" method="post"
+			<form action="/image/uploadProc" method="post"
 				enctype="multipart/form-data">
 				<table class="table">
 					<tr>

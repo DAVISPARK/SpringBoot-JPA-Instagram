@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login | Jejugram</title>
+  <title>outstagram | Join</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     rel="stylesheet">
     <link rel="shortcut icon" href="/images/favicon.ico">
@@ -37,7 +37,7 @@
         <span class="login__text">
           Don't have an account? <br />
         </span>
-        <a class="login__blue-link" href="#">Sign up</a>
+        <a class="login__blue-link" href="/auth/login">Sign up</a>
       </div>
       <div class="login__t-box">
         <span class="login__text">
